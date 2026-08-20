@@ -1,0 +1,449 @@
+!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Data Sheet</title>
+<style>
+* {
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 8pt;
+}
+
+body {
+background-color: #f0f0f0;
+margin: 0;
+padding: 20px;
+display: flex;
+justify-content: center;
+}
+
+.container {
+width: 210mm;
+background-color: white;
+border: 2px solid black;
+padding: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+font-weight: bold;
+font-style: italic;
+font-size: 9pt;
+margin-bottom: 2px;
+}
+
+.title {
+text-align: center;
+font-size: 16pt;
+font-weight: 900;
+margin: 2px 0;
+letter-spacing: 1px;
+}
+
+.warning{
+font-weight: bold;
+font-style: italic;
+font-size: 7.5pt;
+margin-bottom: 4px;
+}
+
+.instruction{
+font-weight: bold;
+font-style: italic;
+font-size: 7pt;
+border-bottom: 1px solid black;
+padding-bottom: 3px;
+margin-bottom: 2px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: -1px;
+}
+
+th, td {
+border: 1px solid black;
+padding: 2px 4px;
+vertical-align: middle;
+}
+
+.header {
+background-color: #969696;
+color: white;
+font-weight: bold;
+font-style: italic;
+font-size: 8.5pt;
+padding: 3px 5px;
+text-transform: uppercase;
+}
+
+.label {
+background-color: #eaeaea;
+font-size: 7pt;
+color: #111;
+}
+
+.sub-label {
+font-size: 6.5pt;
+color: #555;
+font-style: italic;
+}
+.text{
+font-size: 7pt;
+}
+
+.red-note {
+color: red;
+font-style: italic;
+font-weight: bold;
+font-size: 7pt;
+text-align: center;
+}
+
+.footer-table td {
+height: 25px;
+text-align: center;
+}
+
+.page-num {
+text-align: right;
+font-size: 7pt;
+font-style: italic;
+margin-top: 4px;
+}
+.zip{
+font-size: 7pt;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="header">CS Form No. 212<br><span style="font-size: 7.5pt; font-style: italic;">Revised 2026</span></div>
+<div class="title">PERSONAL DATA SHEET</div>
+<div class="warning">
+WARNING: Any misrepresentation made in the Personal Data Sheet and the Work Experience Sheet shall cause the filing of administrative/criminal case/s against the person concerned.
+</div>
+<div class="instruction">
+READ THE ATTACHED GUIDE TO FILLING OUT THE PERSONAL DATA SHEET (PDS) BEFORE ACCOMPLISHING THE PDS FORM.<br>
+Tick appropriate boxes (□) and use separate sheet if necessary. Indicate N/A if not applicable. DO NOT ABBREVIATE.
+</div>
+
+<table>
+<tr>
+<td colspan="4" class="header">I. PERSONAL INFORMATION</td>
+</tr>
+<tr>
+<td class="label" style="width: 18%;"><b>1. SURNAME</b></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td class="label"><b>2. FIRST NAME</b></td>
+<td style="width: 50%;"></td>
+<td class="label" style="width: 17%;"><b>NAME EXTENSION (JR., SR)</b></td>
+<td style="width: 15%;"></td>
+</tr>
+<tr>
+<td class="label"><b>MIDDLE NAME</b></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td class="label"><b>3. DATE OF BIRTH</b><br><span class="sub-label">(dd/mm/yyyy)</span></td>
+<td style="width: 32%;"></td>
+<td class="label" style="width: 18%;"><b>16. CITIZENSHIP</b></td>
+<td style="width: 32%;">
+<span class="text">
+<input type="checkbox">Filipino <input type="checkbox">Dual citizenship<br>
+<input type="checkbox"> by birth <input type="checkbox"> by naturalization <br><br>
+<label>Pls. indicate country</label><br>
+<select>
+<option></option>
+<option>Philippines</option>
+<option>America</option>
+<option>Singapore</option>
+<option>N/A</option>
+</select>
+<input type="text" style="width:100%; height:30%;">
+</span>
+</td>
+</tr>
+<tr>
+<td class="label"><b>4. PLACE OF BIRTH</b></td>
+<td></td>
+<td rowspan="4" class="label"><b>17. RESIDENTIAL ADDRESS</b> <br><br><br><br><br> <p style="text-align: center; font-size: 7pt;">ZIP CODE</p> </td>
+<td rowspan="3">
+<table style="width:100%; border:none;">
+<tr>
+<td style="border:none; border-bottom:1px solid #ccc; border-right:1px solid #ccc;" class="sub-label">House/Block/Lot No.</td>
+<td style="border:none; border-bottom:1px solid #ccc;" class="sub-label">Street</td>
+</tr>
+<tr>
+<td style="border:none; border-bottom:1px solid #ccc; border-right:1px solid #ccc;" class="sub-label">Subdivision/Village</td>
+<td style="border:none; border-bottom:1px solid #ccc;" class="sub-label">Barangay</td>
+</tr>
+<tr>
+<td style="border:none; border-bottom:1px solid #ccc; border-right:1px solid #ccc;" class="sub-label">City/Municipality</td>
+<td style="border:none; border-bottom:1px solid #ccc;" class="sub-label">Province</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="label"><b>5. SEX AT BIRTH</b></td>
+<td style="text-align: center;">
+<span class="text">
+<input type="checkbox" required>Male <input type="checkbox" required>Female
+</span>
+</td>
+</tr>
+<tr>
+<td class="label"><b>6. CIVIL STATUS</b></td>
+<td>
+<span class="text">
+<input type="checkbox" required>Single
+<input type="checkbox" required>Married
+<input type="checkbox" required>Widowed
+<input type="checkbox" required>Seperated
+<input type="checkbox" required>Other/s:
+</span>
+</td>
+</tr>
+<tr>
+<td class="label"><b>7. HEIGHT (m)</b></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label"><b>8. WEIGHT (kg)</b></td>
+<td></td>
+<td rowspan="4" class="label"><b>18. PERMANENT ADDRESS</b><br><br><br><br><br> <p style="text-align: center; font-size: 7pt;">ZIP CODE</p> </td>
+<td rowspan="3">
+<table style="width:100%; border:none;">
+<tr>
+<td style="border:none; border-bottom:1px solid #ccc; border-right:1px solid #ccc;" class="sub-label">House/Block/Lot No.</td>
+<td style="border:none; border-bottom:1px solid #ccc;" class="sub-label">Street</td>
+</tr>
+<tr>
+<td style="border:none; border-bottom:1px solid #ccc; border-right:1px solid #ccc;" class="sub-label">Subdivision/Village</td>
+<td style="border:none; border-bottom:1px solid #ccc;" class="sub-label">Barangay</td>
+</tr>
+<tr>
+<td style="border:none; border-bottom:1px solid #ccc; border-right:1px solid #ccc;" class="sub-label">City/Municipality</td>
+<td style="border:none; border-bottom:1px solid #ccc;" class="sub-label">Province</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="label"><b>9. BLOOD TYPE</b></td>
+<td></td>
+</tr>
+<tr>
+<td class="label"><b>10. UMID ID NO.</b></td>
+<td></td>
+</tr>
+<tr>
+<td class="label"><b>11. PAG-IBIG ID NO.</b></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label"><b>12. PHILHEALTH NO.</b></td>
+<td></td>
+<td class="label"><b>19. TELEPHONE NO.</b></td>
+<td></td>
+</tr>
+<tr>
+<td class="label"><b>PhilSys Card Number (PCN13):</b></td>
+<td></td>
+<td class="label"><b>20. MOBILE NO.</b></td>
+<td></td>
+</tr>
+<tr>
+<td class="label"><b>14. TIN NO.</b></td>
+<td></td>
+<td class="label" rowspan="2"><b>21. E-MAIL ADDRESS (if any)</b></td>
+<td rowspan="2"></td>
+</tr>
+<tr>
+<td class="label"><b>15. AGENCY EMPLOYEE NO.</b></td>
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td colspan="5" class="section-header">II. FAMILY BACKGROUND</td>
+</tr>
+<tr>
+<td class="label" style="width: 18%;"><b>22. SPOUSE'S SURNAME</b></td>
+<td style="width: 32%;"></td>
+<td class="label" style="width: 30%;"><b>23. NAME OF CHILDREN (Write full name and list all)</b></td>
+<td class="label" style="width: 20%; text-align: center;"><b>DATE OF BIRTH</b> (dd/mm/yyyy)</td>
+</tr>
+<tr>
+<td class="label">FIRST NAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">MIDDLE NAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">OCCUPATION</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">EMPLOYER/BUSINESS NAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">BUSINESS ADDRESS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">TELEPHONE NO.</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">24. FATHER'S SURNAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">FIRST NAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">MIDDLE NAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">25. MOTHER'S MAIDEN NAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">SURNAME</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">FIRST NAME</td>
+<td></td>
+<td colspan="2" class="red-note">(Continue on separate sheet if necessary)</td>
+</tr>
+<tr>
+<td class="label">MIDDLE NAME</td>
+<td></td>
+<td colspan="2"></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td colspan="6" class="section-header">III. EDUCATIONAL BACKGROUND</td>
+</tr>
+<tr class="label" style="text-align: center;">
+<td rowspan="2" style="width: 5%;"><b>26. LEVEL</b></td>
+<td rowspan="2" style="width: 25%;"><b>NAME OF SCHOOL</b><br><span class="sub-label">(Write in full)</span></td>
+<td rowspan="2" style="width: 25%;"><b>BASIC EDUCATION/DEGREE/COURSE</b><br><span class="sub-label">(Write in full)</span></td>
+<td colspan="2" style="width: 15%;"><b>PERIOD OF ATTENDANCE</b><br><span class="sub-label">(yyyy)</span></td>
+<td rowspan="2" style="width: 10%;"><b>HIGHEST LEVEL/<br>UNITS EARNED</b><br><span class="sub-label">(if not graduated)</span></td>
+<td rowspan="2" style="width: 10%;"><b>YEAR GRADUATED</b></td>
+<td rowspan="2" style="width: 10%;"><b>SCHOLARSHIP/<br>ACADEMIC HONORS RECEIVED</b></td>
+</tr>
+<tr class="label" style="text-align: center;">
+<td>From</td>
+<td>To</td>
+</tr>
+<tr>
+<td class="label">ELEMENTARY</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+  </tr>
+<tr>
+<td class="label">SECONDARY</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">VOCATIONAL / TRADE COURSE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">COLLEGE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">GRADUATE STUDIES</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="8" class="red-note" style="padding: 3px;">(Continue on separate sheet if necessary)</td>
+</tr>
+</table>
+
+<table class="footer-table">
+<tr>
+<td class="label" style="width: 20%; font-weight: bold;"><b>SIGNATURE</b></td>
+<td style="width: 45%;" class="red-note">(e-signature/digital certificate)</td>
+<td class="label" style="width: 15%; font-weight: bold;"><b>DATE</b></td>
+<td style="width: 20%;"></td>
+</tr>
+</table>
+
+<div class="page-num">CS FORM 212 (Revised 2026), Page 1 of 4</div>
+</div>
+
+</body>
+</html>
