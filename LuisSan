@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compilation</title>
+    </head>
+ <body>
+
+    <h1>Activity: Compilation</h1>
+
+    <div class="activity">
+        <p>Activity 2: List Attributes and Values</p>
+        <p>Link: <a href="act2.html">View Activity 2</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 3: Webpage Layout Design</p>
+        <p>Link: <a href="act3.html">View Activity 3</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 4: List Attributes</p>
+        <p>Link: <a href="act4.html">View Activity 4</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 5: Class Schedule Table</p>
+        <p>Link: <a href="act5.html">View Activity 5</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 6: CPU Scheduling</p>
+        <p>Link: <a href="act6.html">View Activity 6</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 7: Restaurant Menu Table</p>
+        <p>Link: <a href="act7.html">View Activity 7</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 8: Personal DataSheet </p>
+        <p>Link: <a href="act8.html">View Activity 8</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 9: Personal Information</p>
+        <p>Link: <a href="act9.html">View Activity 9</a></p>
+    </div>
+
+    <div class="activity">
+        <p>Activity 10: Compilation</p>
+        <p>Link: <a href="iFrame.html">View Activity 9</a></p>
+    </div>
+
+</body>
+ 
+</html>        
